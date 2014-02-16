@@ -1,5 +1,8 @@
 require "street_smarts/version"
 
+require "street_smarts/api_resource"
+require "street_smarts/address"
+
 module StreetSmarts
   @api_base = 'https://api.smartystreets.com'
 
