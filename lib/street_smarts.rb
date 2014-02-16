@@ -1,5 +1,8 @@
-require "street_smarts/version"
+require 'json'
+require 'cgi'
+require 'faraday'
 
+require "street_smarts/version"
 require "street_smarts/api_resource"
 require "street_smarts/address"
 
